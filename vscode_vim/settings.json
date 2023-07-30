@@ -56,6 +56,18 @@
     {
       "before": ["<Leader>", "c", "e", "g"],
       "commands": ["workbench.action.closeEditorsAndGroup"]
+    },
+    {
+      "before": ["<Leader>", "t", "n"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<Leader>", "t", "N"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<Leader>", "t", "t"],
+      "commands": ["workbench.action.files.newUntitledFile"]
     }
   ],
   "editor.formatOnSave": true,
