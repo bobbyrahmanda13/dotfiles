@@ -1,57 +1,67 @@
 {
-    "workbench.startupEditor": "none",
-    "editor.wordWrap": "on",
-    "workbench.colorTheme": "Tokyo Night Storm",
-    "workbench.iconTheme": "material-icon-theme",
-    "window.titleBarStyle": "custom",
-    "vim.leader": " ",
-    "vim.insertModeKeyBindingsNonRecursive": [
-		// Vim Shortcuts
-		{
-			"before": ["j", "k"],
-			"after": ["<Esc>"]
-		}
-	],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-			"before": ["<Leader>", "e", "f"],
-			"commands": ["workbench.explorer.fileView.focus"]
-		},
-        {
-			"before": ["<Leader>", "s", "s"],
-			"commands": ["workbench.action.toggleSidebarVisibility"]
-		},
-		{
-			"before": ["<Leader>", "q"],
-			"commands": ["workbench.action.closeActiveEditor"]
-		},
-		{
-			"before": ["<Leader>", "g","g"],
-			"commands": ["workbench.action.quickOpen"]
-		},
-		{
-			"before": ["<Leader>", "r", "s"],
-			"commands": ["editor.action.rename"]
-		},
-		{
-			"before": ["<Leader>", "s", "h"],
-			"commands": ["workbench.action.splitEditorLeft"]
-		},
-		{
-			"before": ["<Leader>", "s", "j"],
-			"commands": ["workbench.action.splitEditorDown"]
-		},
-		{
-			"before": ["<Leader>", "s", "k"],
-			"commands": ["workbench.action.splitEditorUp"]
-		},
-		{
-			"before": ["<Leader>", "s", "l"],
-			"commands": ["workbench.action.splitEditorRight"]
-		},
-		{
-			"before": ["<Leader>", "c", "o", "e"],
-			"commands": ["workbench.action.closeOtherEditors"]
-		},
-	],
+  "workbench.startupEditor": "none",
+  "editor.wordWrap": "on",
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.titleBarStyle": "custom",
+  "vim.leader": " ",
+  "vim.insertModeKeyBindingsNonRecursive": [
+    // Vim Shortcuts
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<Leader>", "e", "f"],
+      "commands": ["workbench.explorer.fileView.focus"]
+    },
+    {
+      "before": ["<Leader>", "s", "s"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<Leader>", "q"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<Leader>", "g", "g"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<Leader>", "r", "s"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["<Leader>", "s", "h"],
+      "commands": ["workbench.action.splitEditorLeft"]
+    },
+    {
+      "before": ["<Leader>", "s", "j"],
+      "commands": ["workbench.action.splitEditorDown"]
+    },
+    {
+      "before": ["<Leader>", "s", "k"],
+      "commands": ["workbench.action.splitEditorUp"]
+    },
+    {
+      "before": ["<Leader>", "s", "l"],
+      "commands": ["workbench.action.splitEditorRight"]
+    },
+    {
+      "before": ["<Leader>", "c", "o", "e"],
+      "commands": ["workbench.action.closeOtherEditors"]
+    },
+    {
+      "before": ["<Leader>", "c", "e", "g"],
+      "commands": ["workbench.action.closeEditorsAndGroup"]
+    }
+  ],
+  "editor.formatOnSave": true,
+  "prettier.vueIndentScriptAndStyle": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Iosevka SS14,'Droid Sans Mono', 'monospace', monospace",
+  "prettier.semi": false,
+  "editor.tabSize": 2
 }
