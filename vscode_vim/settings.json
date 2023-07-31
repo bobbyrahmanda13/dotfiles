@@ -1,7 +1,7 @@
 {
   "workbench.startupEditor": "none",
   "editor.wordWrap": "on",
-  "workbench.colorTheme": "Tokyo Night Storm",
+  "workbench.colorTheme": "Tokyo Night",
   "workbench.iconTheme": "material-icon-theme",
   "window.titleBarStyle": "custom",
   "vim.leader": " ",
@@ -73,7 +73,8 @@
   "editor.formatOnSave": true,
   "prettier.vueIndentScriptAndStyle": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "Iosevka SS14,'Droid Sans Mono', 'monospace', monospace",
   "prettier.semi": false,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "editor.fontFamily": "JetBrains Mono, 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": true
 }
