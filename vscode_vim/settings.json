@@ -70,11 +70,17 @@
       "commands": ["workbench.action.files.newUntitledFile"]
     }
   ],
-  "editor.formatOnSave": true,
   "prettier.vueIndentScriptAndStyle": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.semi": false,
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "Iosevka Rahman, 'Droid Sans Mono', 'monospace', monospace"
+  "editor.fontFamily": "Iosevka Rahman, 'Droid Sans Mono', 'monospace', monospace",
+  "editor.formatOnSave": true,
+  "workbench.tree.indent":15,
+  "workbench.tree.renderIndentGuides":"always",
+  "workbench.colorCustomizations":{
+  "tree.indentGuidesStroke":"#05ef3c"
+}
+  
 }
