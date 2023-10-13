@@ -14,5 +14,5 @@ chmod +x .shortcuts/youtubeVideoTermux.sh
 rm -irf dotfiles/alacritty
 rm -irf dotfiles/iosevka_rahman
 rm -irf dotfiles/tmuxConfig
-rm -irfm dotfiles/vscode_vim
+rm -irf dotfiles/vscode_vim
 
