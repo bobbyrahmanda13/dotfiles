@@ -7,3 +7,9 @@ mkdir .shortcuts && mv dotfiles/youtubemp3/youtubemp3Termux.sh .shortcuts && mv 
 chmod +x .shortcuts/youtubemp3Termux.sh
 chmod +x .shortcuts/youtubeVideoTermux.sh
 exit
+
+rm -irf dotfiles/alacritty
+rm -irf dotfiles/iosevka_rahman
+rm -irf dotfiles/tmuxConfig
+rm -irfm dotfiles/vscode_vim
+
