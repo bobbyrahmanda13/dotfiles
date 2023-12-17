@@ -12,21 +12,21 @@ window:
   x: 0
   y: 0
  padding:
-  x: 0
+  x: 3
   y: 5
  dynamic_padding: false
  opacity: 0.90
 font:
  normal:
-  family: Geist Mono
+  family: Nova Nerd Font
   style: Regular
  medium:
-  family: Geist Mono
+  family: Nova Nerd Font
   style: Medium
  italic:
-  family: Geist Mono
+  family: Nova Nerd Font
   style: Italic
- size: 9.0
+ size: 8.0
 cursor:
  style:
   shape: Block

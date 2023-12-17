@@ -62,8 +62,7 @@ colors:
     cyan: "#94E2D5" # teal
     white: "#A6ADC8" # subtext0
 
-    # Dim colors
-  dim:
+    # Dim colors dim:
     black: "#45475A" # surface1
     red: "#F38BA8" # red
     green: "#A6E3A1" # green
@@ -76,3 +75,5 @@ colors:
   indexed_colors:
     - { index: 16, color: "#FAB387" }
     - { index: 17, color: "#F5E0DC" }
+
+
