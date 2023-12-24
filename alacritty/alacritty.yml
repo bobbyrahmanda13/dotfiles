@@ -13,7 +13,7 @@ window:
   y: 0
  padding:
   x: 3
-  y: 5
+  y: 0
  dynamic_padding: false
  opacity: 0.90
 font:
