@@ -275,10 +275,28 @@ esac
 
 # git command short start
 alias ga='git add .'
-alias gst='git status'
-alias gcm='git commit -m'
+alias gs='git status'
+alias gc='git commit -m'
 alias gbr='git branch'
 alias gco='git checkout'
 alias gp='git push'
 alias gk='git add . && git commit -m'
+alias glog='git log'
 # git command short end
+
+# command package manager short start
+alias bi='bun install'
+alias ba='bun add'
+alias br='bun remove'
+alias bu='bun update'
+alias bs='bun setup'
+
+alias pi='pnpm install'
+alias pa='pnpm add'
+alias pr='pnpm remove'
+alias pu='pnpm update'
+alias pgl='pnpm -g list'
+alias pel='pnpm env list'
+alias pign='pnpm env use --global'
+# command package manager short end
+
