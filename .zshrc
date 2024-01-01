@@ -275,8 +275,8 @@ esac
 
 # git command short start
 alias ga='git add .'
-alias gs='git status'
-alias gc='git commit -m'
+alias gst='git status --short'
+alias gcm='git commit -m'
 alias gbr='git branch'
 alias gco='git checkout'
 alias gp='git push'
