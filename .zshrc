@@ -282,6 +282,7 @@ alias gco='git checkout'
 alias gp='git push'
 alias gk='git add . && git commit -m'
 alias glog='git log'
+alias gclone='git clone'
 # git command short end
 
 # command package manager short start
