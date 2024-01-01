@@ -273,11 +273,12 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-# git command short
+# git command short start
 alias ga='git add .'
-alias gst='git st'
-alias gcm='git cm'
-alias gbr='git br'
-alias gco='git co'
-alias gp='git gp'
-alias gk='git add . && git cm'
+alias gst='git status'
+alias gcm='git commit -m'
+alias gbr='git branch'
+alias gco='git checkout'
+alias gp='git push'
+alias gk='git add . && git commit -m'
+# git command short end

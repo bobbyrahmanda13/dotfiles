@@ -8,10 +8,3 @@
 	defaultBranch = core
 [core]
 	editor = nvim
-[alias]
-	st = status --short
-	cm = commit -m
-	br = branch
-	co = chekout
-	gp = push
-
