@@ -1,0 +1,18 @@
+[user]
+	name = bobbyrahmanda13
+	email = bobbyrahmanda1996@protonmail.com
+[credential]
+	helper = cache --timeout=604800
+	username = bobbyrahmanda13
+	token = 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
+[init]
+	defaultBranch = core
+[core]
+	editor = nvim
+[alias]
+	st = status --short
+	cm = commit -m
+	br = branch
+	co = chekout
+	gp = push
+
