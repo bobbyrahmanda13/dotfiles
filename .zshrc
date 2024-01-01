@@ -287,6 +287,7 @@ alias gclone='git clone'
 
 # command package manager short start
 alias bi='bun install'
+alias bd='bun dev'
 alias ba='bun add'
 alias br='bun remove'
 alias bu='bun update'
