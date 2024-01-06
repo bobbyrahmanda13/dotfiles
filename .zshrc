@@ -92,8 +92,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 configure_prompt() {
-    # prompt_symbol=㉿
-    prompt_symbol=👻
+    prompt_symbol=㉿
     # Skull emoji for root terminal
     #[ "$EUID" -eq 0 ] && prompt_symbol=💀
     case "$PROMPT_ALTERNATIVE" in
@@ -258,13 +257,6 @@ if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
 
-# bun completions
-[ -s "/home/rahman/.bun/_bun" ] && source "/home/rahman/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
 # pnpm
 export PNPM_HOME="/home/rahman/.local/share/pnpm"
 case ":$PATH:" in
@@ -272,6 +264,14 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# bun completions
+[ -s "/home/rahman/.bun/_bun" ] && source "/home/rahman/.bun/_bun"
+
+# bun start
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+# bun end
 
 # git command short start
 alias ga='git add .'
