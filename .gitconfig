@@ -8,3 +8,14 @@
 	defaultBranch = core
 [core]
 	editor = nvim
+[color]
+  ui = true
+  diff = true
+  status = true
+  branch = true
+  pager = true
+  push = true
+  blame = true
+  interactive = true
+[push]
+  default = upstream
