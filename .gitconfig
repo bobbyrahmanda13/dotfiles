@@ -9,13 +9,11 @@
 [core]
 	editor = nvim
 [color]
-  ui = true
-  diff = true
-  status = true
-  branch = true
-  pager = true
-  push = true
-  blame = true
-  interactive = true
+  status = auto
+  diff = auto
+  branch = auto
+  interactive = auto
+  grep = auto
+  ui = auto
 [push]
   default = upstream
