@@ -292,7 +292,7 @@ alias bd='bun dev'
 alias ba='bun add'
 alias br='bun remove'
 alias bu='bun update'
-alias bs='bun setup'
+alias bup='bun upgrade'
 
 alias pi='pnpm install'
 alias pa='pnpm add'
