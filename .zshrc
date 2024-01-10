@@ -287,19 +287,19 @@ alias gclone='git clone'
 # git command short end
 
 # command package manager short start
-alias rbi='bun install'
-alias rbd='bun dev'
-alias rba='bun add'
-alias rbr='bun remove'
-alias rbu='bun update'
-alias rbup='bun upgrade'
+alias bi='bun install'
+alias bd='bun dev'
+alias ba='bun add'
+alias br='bun remove'
+alias bu='bun update'
+alias bup='bun upgrade'
 
-alias rpi='pnpm install'
-alias rpa='pnpm add'
-alias rpr='pnpm remove'
-alias rpu='pnpm update'
-alias rpgl='pnpm -g list'
-alias rpel='pnpm env list'
-alias rpign='pnpm env use --global'
+alias pi='pnpm install'
+alias pa='pnpm add'
+alias pr='pnpm remove'
+alias pu='pnpm update'
+alias pgl='pnpm -g list'
+alias pel='pnpm env list'
+alias pign='pnpm env use --global'
 # command package manager short end
 
