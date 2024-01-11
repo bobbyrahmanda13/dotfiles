@@ -258,14 +258,6 @@ if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
 
-# pnpm
-export PNPM_HOME="/home/rahman/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
 # bun completions
 [ -s "/home/rahman/.bun/_bun" ] && source "/home/rahman/.bun/_bun"
 
@@ -294,12 +286,12 @@ alias br='bun remove'
 alias bu='bun update'
 alias bup='bun upgrade'
 
-alias pi='pnpm install'
-alias pa='pnpm add'
-alias pr='pnpm remove'
-alias pu='pnpm update'
-alias pgl='pnpm -g list'
-alias pel='pnpm env list'
-alias pign='pnpm env use --global'
+# alias pi='pnpm install'
+# alias pa='pnpm add'
+# alias pr='pnpm remove'
+# alias pu='pnpm update'
+# alias pgl='pnpm -g list'
+# alias pel='pnpm env list'
+# alias pign='pnpm env use --global'
 # command package manager short end
 
