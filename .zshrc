@@ -258,13 +258,6 @@ if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
 
-# bun completions
-[ -s "/home/rahman/.bun/_bun" ] && source "/home/rahman/.bun/_bun"
-
-# bun start
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-# bun end
 
 # git command short start
 alias ga='git add .'
@@ -279,19 +272,28 @@ alias gclone='git clone'
 # git command short end
 
 # command package manager short start
-alias bi='bun install'
-alias bd='bun dev'
-alias ba='bun add'
-alias br='bun remove'
-alias bu='bun update'
-alias bup='bun upgrade'
+# alias bi='bun install'
+# alias bd='bun dev'
+# alias ba='bun add'
+# alias br='bun remove'
+# alias bu='bun update'
+# alias bup='bun upgrade'
 
-# alias pi='pnpm install'
-# alias pa='pnpm add'
-# alias pr='pnpm remove'
-# alias pu='pnpm update'
-# alias pgl='pnpm -g list'
-# alias pel='pnpm env list'
-# alias pign='pnpm env use --global'
+alias pi='pnpm install'
+alias pdev='pnpm dev'
+alias pa='pnpm add'
+alias pr='pnpm remove'
+alias pu='pnpm update'
+alias pgl='pnpm -g list'
+alias pel='pnpm env list'
+alias pign='pnpm env use --global'
 # command package manager short end
 
+
+# pnpm
+export PNPM_HOME="/home/rahman/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
