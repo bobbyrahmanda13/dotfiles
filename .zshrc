@@ -289,6 +289,17 @@ alias pel='pnpm env list'
 alias pign='pnpm env use --global'
 # command package manager short end
 
+# aria2 downloader start
+alias ardown='bash .aria2/aria2.sh'
+# aria2 downloader end
+
+# youtube2 downloader video start
+alias ytbvid='bash youtubeVideo/youtubeVideo.sh'
+# youtube2 downloader video end
+
+# youtube downloader mp3 start
+alias ytbmp3='bash youtubemp3/youtubemp3.sh'
+# youtube downloader mp3 end
 
 # pnpm
 export PNPM_HOME="/home/rahman/.local/share/pnpm"
