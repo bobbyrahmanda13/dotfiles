@@ -271,6 +271,8 @@ alias glog='git log'
 alias gclone='git clone'
 # git command short end
 
+alias gsend='bash ${HOME}/gsend.sh'
+
 # command package manager short start
 # alias bi='bun install'
 # alias bd='bun dev'
