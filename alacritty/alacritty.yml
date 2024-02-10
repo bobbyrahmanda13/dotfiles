@@ -1,6 +1,6 @@
 import:
   # uncomment the flavour you want below:
-  - ~/.config/alacritty/solarized_dark.yml
+  # - ~/.config/alacritty/solarized_dark.yml
   - ~/.config/alacritty/tokyo_night.yml
 
 env:
@@ -13,10 +13,18 @@ window:
     x: 0
     y: 0
   padding:
-    x: 5
-    y: 5
+    x: 3
+    y: 3
   dynamic_padding: false
   opacity: 0.90
+  border:
+    color: "0x7aa2f7"
+    width: 2
+  # decorations: full
+  title: Alacritty
+  class:
+    instance: Alacritty
+    general: Alacritty
 font:
   normal:
     family: Nova Nerd Font
