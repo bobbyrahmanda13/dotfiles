@@ -1,4 +1,4 @@
-path="/media/rahman/Black/rahmanapps/dotfiles/"
+path="/media/rahman/Black1/rahmanapps/dotfiles"
 cp .zshrc $path
 cp .gitconfig $path
 cp .tmux.conf $path
