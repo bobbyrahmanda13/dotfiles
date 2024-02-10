@@ -17,10 +17,6 @@ window:
     y: 3
   dynamic_padding: false
   opacity: 0.90
-  border:
-    color: "0x7aa2f7"
-    width: 2
-  # decorations: full
   title: Alacritty
   class:
     instance: Alacritty
