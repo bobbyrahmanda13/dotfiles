@@ -17,3 +17,6 @@
   ui = auto
 [push]
   default = upstream
+[safe]
+	directory = /media/rahman/Black/rahmanapps/dotfiles
+	directory = /media/rahman/Black/rahmanapps/udemy-nuxt-projects
