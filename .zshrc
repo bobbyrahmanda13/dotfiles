@@ -293,7 +293,11 @@ alias pu='pnpm update'
 alias pgl='pnpm -g list'
 alias pel='pnpm env list'
 alias pign='pnpm env use --global'
+alias puv='wget -qO- https://get.pnpm.io/install.sh | sh -'
 # command package manager short end
+
+# neovim upgrade nightly
+alias nvim-upgrade='git clone https://github.com/neovim/neovim && cd neovim && make distclean && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install'
 
 # aria2 downloader start
 alias ardown='bash .aria2/aria2.sh'
