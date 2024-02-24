@@ -279,7 +279,7 @@ alias tmux4='tmux new -s coding4'
 
 # command package manager short start
 alias bi='bun install'
-alias bd='bun dev'
+alias bdev='bun dev'
 alias ba='bun add'
 alias br='bun remove'
 alias bu='bun update'
