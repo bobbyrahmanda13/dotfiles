@@ -23,13 +23,13 @@ window:
     general: Alacritty
 font:
   normal:
-    family: Nova Nerd Font
-    style: Regular
-  medium:
-    family: Nova Nerd Font
+    family: Iosevka Mayukai Serif
     style: Medium
+  medium:
+    family: Iosevka Mayukai Serif
+    style: Bold
   italic:
-    family: Nova Nerd Font
+    family: Iosevka Mayukai Serif
     style: Italic
   size: 8.0
 cursor:
