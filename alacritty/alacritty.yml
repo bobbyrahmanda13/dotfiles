@@ -23,15 +23,15 @@ window:
     general: Alacritty
 font:
   normal:
-    family: Iosevka Mayukai Serif
+    family: Iosevka Nerd Font
     style: Medium
   medium:
-    family: Iosevka Mayukai Serif
+    family: Iosevka Nerd Font
     style: Bold
   italic:
-    family: Iosevka Mayukai Serif
+    family: Iosevka Nerd Font
     style: Italic
-  size: 8.0
+  size: 8.4
 cursor:
   style:
     shape: Block
