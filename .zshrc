@@ -258,7 +258,6 @@ if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
 
-
 # git command short start
 alias ga='git add .'
 alias gst='git status --short'
@@ -286,7 +285,6 @@ alias bu='bun update'
 alias bup='bun upgrade'
 alias buv='curl -fsSL https://bun.sh/install | bash'
 
-
 alias pi='pnpm install'
 alias pdev='pnpm dev'
 alias pa='pnpm add'
@@ -313,6 +311,13 @@ alias ytbvid='bash youtubeVideo/youtubeVideo.sh'
 alias ytbmp3='bash youtubemp3/youtubemp3.sh'
 # youtube downloader mp3 end
 
+# bun completions
+[ -s "/home/rahman/.bun/_bun" ] && source "/home/rahman/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
 # pnpm
 export PNPM_HOME="/home/rahman/.local/share/pnpm"
 case ":$PATH:" in
@@ -320,10 +325,3 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
-
-# bun completions
-[ -s "/home/rahman/.bun/_bun" ] && source "/home/rahman/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
