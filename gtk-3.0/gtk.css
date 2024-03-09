@@ -82,7 +82,7 @@ window#whiskermenu-window scrolledwindow {
 
 /* Thunar (Optional) */
 .thunar .sidebar {
-  border: 5px solid blue;
+  border: 5px solid transparent;
   background-color: transparent;  /* Use a custom background image if desired */
   padding: 2px 4px 2px 0px;
   border-radius: 3px;
