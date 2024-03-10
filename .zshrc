@@ -326,3 +326,17 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+LC_ALL=en_US.UTF-8
+
+# GPG Key Export
+# Backup gpg key public
+alias gpg-export-public='gpg --export --export-options backup -o ${HOME}/Downloads/gpg-key/publicRahman.gpg'
+# Backup gpg key private 
+alias gpg-export-private='gpg --export-secret-keys --export-options backup -o ${HOME}/Downloads/gpg-key/privateRahman.gpg'
+# export private-key gpg
+alias gpgPrivKey='gpg --export-secrey-key -a bobbyRahmanda > ${HOME}/Downloads/gpg-key/privateRahman.key'
+# export public-key gpg
+alias gpgPubKey='gpg --export -a bobbyRahmanda > ${HOME}/Downloads/gpg-key/publicRahman.key'
+
+# export all .gpg and .key
+alias gpgExport='gpg-export-public && gpg-export-private && gpgPrivKey && gpgPubKey'
