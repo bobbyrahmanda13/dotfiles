@@ -334,7 +334,7 @@ alias gpg-export-public='gpg --export --export-options backup -o ${HOME}/Downloa
 # Backup gpg key private 
 alias gpg-export-private='gpg --export-secret-keys --export-options backup -o ${HOME}/Downloads/gpg-key/privateRahman.gpg'
 # export private-key gpg
-alias gpgPrivKey='gpg --export-secrey-key -a bobbyRahmanda > ${HOME}/Downloads/gpg-key/privateRahman.key'
+alias gpgPrivKey='gpg --export-secret-keys -a bobbyRahmanda > ${HOME}/Downloads/gpg-key/privateRahman.key'
 # export public-key gpg
 alias gpgPubKey='gpg --export -a bobbyRahmanda > ${HOME}/Downloads/gpg-key/publicRahman.key'
 
