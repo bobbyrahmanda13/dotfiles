@@ -8,10 +8,10 @@ env:
   TERM: alacritty
 window:
   dimensions:
-    columns: 130
+    columns: 160
     lines: 32
   position:
-    x: 155
+    x: 35
     y: 0
   padding:
     x: 3
