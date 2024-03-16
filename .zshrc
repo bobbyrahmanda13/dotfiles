@@ -340,3 +340,9 @@ alias gpgPubKey='gpg --export -a bobbyRahmanda > ${HOME}/Downloads/gpg-key/publi
 
 # export all .gpg and .key
 alias gpgExport='gpg-export-public && gpg-export-private && gpgPrivKey && gpgPubKey'
+
+
+alias znvim='cd ${HOME}/.config/nvim'
+alias zaria2='cd ${HOME}/.aria2'
+alias zalacritty='cd ${HOME}/.config/alacritty'
+alias zgtk='cd ${HOME}/.config/gtk-3.0'

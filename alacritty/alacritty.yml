@@ -1,7 +1,8 @@
 import:
   # uncomment the flavour you want below:
   # - ~/.config/alacritty/solarized_dark.yml
-  - ~/.config/alacritty/tokyo_night.yml
+  # - ~/.config/alacritty/tokyo_night.yml
+  - ~/.config/alacritty/solarized-osaka.yml
 
 env:
   TERM: alacritty
