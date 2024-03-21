@@ -1,32 +1,8 @@
-[#6b1189 0B/0B CN:1 DL:0B]
-[#6b1189 208KiB/6.2MiB(3%) CN:5 DL:235KiB ETA:26s]
-[#6b1189 528KiB/6.2MiB(8%) CN:5 DL:280KiB ETA:20s]
-[#6b1189 3.8MiB/6.2MiB(62%) CN:3 DL:1.3MiB ETA:1s]
-[#6b1189 4.0MiB/6.2MiB(65%) CN:3 DL:1.0MiB ETA:2s]
-[#6b1189 4.2MiB/6.2MiB(67%) CN:3 DL:875KiB ETA:2s]
-[#6b1189 4.3MiB/6.2MiB(69%) CN:3 DL:749KiB ETA:2s]
-[#6b1189 4.4MiB/6.2MiB(71%) CN:3 DL:665KiB ETA:2s]
-[#6b1189 4.6MiB/6.2MiB(74%) CN:3 DL:601KiB ETA:2s]
-[#6b1189 4.7MiB/6.2MiB(76%) CN:3 DL:552KiB ETA:2s]
-[#6b1189 4.9MiB/6.2MiB(79%) CN:3 DL:513KiB ETA:2s]
-[#6b1189 5.1MiB/6.2MiB(82%) CN:2 DL:511KiB ETA:2s]
-[#6b1189 5.2MiB/6.2MiB(83%) CN:2 DL:470KiB ETA:2s]
-[#6b1189 5.2MiB/6.2MiB(84%) CN:2 DL:138KiB ETA:7s]
-[#6b1189 5.3MiB/6.2MiB(85%) CN:2 DL:125KiB ETA:7s]
-[#6b1189 5.4MiB/6.2MiB(86%) CN:2 DL:122KiB ETA:6s]
-[#6b1189 5.5MiB/6.2MiB(87%) CN:2 DL:119KiB ETA:6s]
-[#6b1189 5.5MiB/6.2MiB(89%) CN:2 DL:108KiB ETA:6s]
-[#6b1189 5.6MiB/6.2MiB(90%) CN:2 DL:102KiB ETA:5s]
-[#6b1189 5.7MiB/6.2MiB(92%) CN:2 DL:98KiB ETA:4s]
-[#6b1189 6.0MiB/6.2MiB(97%) CN:1 DL:96KiB ETA:1s]
-[#6b1189 6.1MiB/6.2MiB(97%) CN:1 DL:94KiB ETA:1s]
-[#6b1189 6.1MiB/6.2MiB(98%) CN:1 DL:96KiB]
-[#6b1189 6.2MiB/6.2MiB(99%) CN:1 DL:94KiB]
 
 Download Results:
 gid   |stat|avg speed  |path/URI
 ======+====+===========+=======================================================
-6b1189|OK  |   269KiB/s|/home/rahman/Downloads/SeriousSansNerd.otf
+439b65|OK  |   1.5MiB/s|/home/rahman/Downloads/watch
 
 Status Legend:
 (OK):download completed.
