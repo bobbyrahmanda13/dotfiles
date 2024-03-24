@@ -298,7 +298,7 @@ alias puv='wget -qO- https://get.pnpm.io/install.sh | sh -'
 # command package manager short end
 
 # neovim upgrade nightly
-alias nvim-upgrade='git clone https://github.com/neovim/neovim && cd neovim && make distclean && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install'
+alias nvim-upgrade='git clone https://github.com/neovim/neovim && cd neovim && make distclean && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install && cd .. && sudo rm -irf neovim'
 
 # aria2 downloader start
 alias ardown='bash ${HOME}/.aria2/aria2.sh'
