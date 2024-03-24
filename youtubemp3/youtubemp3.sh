@@ -37,7 +37,6 @@ yt-dlp -f 'ba' -x --audio-format mp3 --downloader aria2c --downloader-args aria2
   --uri-selector=adaptive \
   --deferred-input=true \
   --console-log-level=error \
-  --log-level=error'" \
-  -a ${HOME}/youtubemp3/linkDownload.txt \
-  -o ${HOME}/Downloads/'%(title)s.mp3'
+  --log-level=error" \
+  -a ${HOME}/youtubemp3/linkDownload.txt -o ${HOME}/Downloads/'%(title)s.mp3'
   exit
