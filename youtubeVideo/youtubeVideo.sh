@@ -38,5 +38,5 @@ yt-dlp -f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4] / bv*+ba/b" --downloader aria2c -
   --deferred-input=true \
   --console-log-level=error \
   --log-level=error" \
-  -a ${HOME}/youtubeVideo/linkDownload.txt -o ${HOME}/Downloads/"%(title)s.%(ext)s"
+  -a ${HOME}/youtubeVideo/linkDownload.txt -o ${HOME}/Downloads/ytbVideoResult/"%(title)s.%(ext)s"
   exit
