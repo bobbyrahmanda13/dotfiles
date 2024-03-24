@@ -301,15 +301,15 @@ alias puv='wget -qO- https://get.pnpm.io/install.sh | sh -'
 alias nvim-upgrade='git clone https://github.com/neovim/neovim && cd neovim && make distclean && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install'
 
 # aria2 downloader start
-alias ardown='bash .aria2/aria2.sh'
+alias ardown='bash ${HOME}/.aria2/aria2.sh'
 # aria2 downloader end
 
 # youtube2 downloader video start
-alias ytbvid='bash youtubeVideo/youtubeVideo.sh'
+alias ytbvid='bash ${HOME}/youtubeVideo/youtubeVideo.sh'
 # youtube2 downloader video end
 
 # youtube downloader mp3 start
-alias ytbmp3='bash youtubemp3/youtubemp3.sh'
+alias ytbmp3='bash ${HOME}/youtubemp3/youtubemp3.sh'
 # youtube downloader mp3 end
 
 # bun completions
