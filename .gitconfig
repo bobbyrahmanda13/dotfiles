@@ -5,7 +5,7 @@
 	helper = cache --timeout=604800
 	username = bobbyrahmanda13
 [init]
-	defaultBranch = core
+	defaultBranch = main 
 [core]
 	editor = nvim
 [color]
