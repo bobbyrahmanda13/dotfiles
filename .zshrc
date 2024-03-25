@@ -285,6 +285,7 @@ alias br='bun remove'
 alias bu='bun update'
 alias bup='bun upgrade'
 alias buv='curl -fsSL https://bun.sh/install | bash'
+alias bx='bunx'
 
 alias pi='pnpm install'
 alias pdev='pnpm dev'
