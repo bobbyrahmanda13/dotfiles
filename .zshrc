@@ -313,13 +313,6 @@ alias ytbvid='bash ${HOME}/youtubeVideo/youtubeVideo.sh'
 alias ytbmp3='bash ${HOME}/youtubemp3/youtubemp3.sh'
 # youtube downloader mp3 end
 
-# bun completions
-[ -s "/home/rahman/.bun/_bun" ] && source "/home/rahman/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
 # pnpm
 export PNPM_HOME="/home/rahman/.local/share/pnpm"
 case ":$PATH:" in
