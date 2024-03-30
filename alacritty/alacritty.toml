@@ -1,0 +1,70 @@
+[cursor.style]
+shape = "Block"
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 8.2
+
+[font.italic]
+family = "Iosevka Nerd Font"
+style = "Italic"
+
+[font.bold]
+family = "Iosevka Nerd Font"
+style = "Bold"
+
+[font.normal]
+family = "Iosevka Nerd Font"
+style = "Normal"
+
+[window]
+dynamic_padding = false
+opacity = 0.94
+title = "Alacritty"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.dimensions]
+columns = 160
+lines = 32
+
+[window.padding]
+x = 3
+y = 3
+
+[window.position]
+x = 35
+y = 0
+
+# Colors (Solarized Dark)
+
+# Default colors
+[colors.primary]
+background = '#041419'
+foreground = '#AFB8B8'
+
+# Normal colors
+[colors.normal]
+black   = '#15161e'
+red     = '#dc322f'
+green   = '#9ece6a'
+yellow  = '#e0af68'
+blue    = '#7aa2f7'
+magenta = '#bb9af7'
+cyan    = '#7dcfff'
+white   = '#a9b1d6'
+
+# Bright colors
+[colors.bright]
+black   = '#002b36'
+red     = '#cb4b16'
+green   = '#586e75'
+yellow  = '#657b83'
+blue    = '#839496'
+magenta = '#6c71c4'
+cyan    = '#93a1a1'
+white   = '#fdf6e3'
