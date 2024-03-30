@@ -5,19 +5,11 @@ shape = "Block"
 TERM = "alacritty"
 
 [font]
-size = 8.2
+size = 8.0
 
-[font.italic]
-family = "Iosevka Nerd Font"
-style = "Italic"
-
-[font.bold]
-family = "Iosevka Nerd Font"
-style = "Bold"
-
-[font.normal]
-family = "Iosevka Nerd Font"
-style = "Normal"
+normal = { family = "FantasqueSansM Nerd Font", style = "Regular"}
+italic = { family = "FantasqueSansM Nerd Font", style = "Italic"}
+bold = { family = "FantasqueSansM Nerd Font", style = "Bold"}
 
 [window]
 dynamic_padding = false
@@ -30,7 +22,7 @@ instance = "Alacritty"
 
 [window.dimensions]
 columns = 160
-lines = 32
+lines = 40
 
 [window.padding]
 x = 3
