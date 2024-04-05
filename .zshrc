@@ -298,6 +298,16 @@ alias pign='pnpm env use --global'
 alias px='pnpm dlx'
 alias puv='wget -qO- https://get.pnpm.io/install.sh | sh -'
 # command package manager short end
+#
+# nuxt start using pnpm
+alias nuxt-add='pnpm dlx nuxi add'
+alias nuxt-analyze='pnpm dlx nuxi analyze'
+alias nuxt-build='pnpm dlx nuxi build'
+alias nuxt-dev='pnpm dlx nuxi dev'
+alias nuxt-module='pnpm dlx nuxi module add'
+alias nuxt-typecheck='pnpm dlx nuxi typecheck'
+# nuxt end
+
 
 # neovim upgrade nightly
 alias nvim-upgrade='git clone https://github.com/neovim/neovim && cd neovim && make distclean && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install && cd .. && sudo rm -irf neovim'
