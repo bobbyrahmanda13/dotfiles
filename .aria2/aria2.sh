@@ -1,6 +1,6 @@
 file="${HOME}/.aria2/link.txt"
 
-mousepad $file
+nvim $file
 
 if ! grep -q '[^[:space:]]' $file; then
   echo "file is empty" 

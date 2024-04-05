@@ -15,5 +15,3 @@
   interactive = auto
   grep = auto
   ui = auto
-[push]
-  default = upstream
