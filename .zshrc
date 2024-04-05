@@ -295,6 +295,7 @@ alias pu='pnpm update'
 alias pgl='pnpm -g list'
 alias pel='pnpm env list'
 alias pign='pnpm env use --global'
+alias px='pnpm dlx'
 alias puv='wget -qO- https://get.pnpm.io/install.sh | sh -'
 # command package manager short end
 
