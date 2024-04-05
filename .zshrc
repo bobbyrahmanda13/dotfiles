@@ -306,6 +306,7 @@ alias nuxt-build='pnpm dlx nuxi build'
 alias nuxt-dev='pnpm dlx nuxi dev'
 alias nuxt-module='pnpm dlx nuxi module add'
 alias nuxt-typecheck='pnpm dlx nuxi typecheck'
+alias nuxt-upgrade='pnpm dlx nuxi upgrade'
 # nuxt end
 
 
