@@ -1,0 +1,38 @@
+import:
+  # uncomment the flavour you want below:
+  # - ~/.config/alacritty/solarized_dark.yml
+  # - ~/.config/alacritty/tokyo_night.yml
+  - ~/.config/alacritty/solarized-osaka.yml
+
+env:
+  TERM: alacritty
+window:
+  dimensions:
+    columns: 160
+    lines: 32
+  position:
+    x: 35
+    y: 0
+  padding:
+    x: 3
+    y: 3
+  dynamic_padding: false
+  opacity: 0.94
+  title: Alacritty
+  class:
+    instance: Alacritty
+    general: Alacritty
+font:
+  normal:
+    family: Iosevka Nerd Font
+    style: Medium
+  medium:
+    family: Iosevka Nerd Font
+    style: Bold
+  italic:
+    family: Iosevka Nerd Font
+    style: Italic
+  size: 8.4
+cursor:
+  style:
+    shape: Block
