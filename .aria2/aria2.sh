@@ -1,4 +1,11 @@
 file="${HOME}/.aria2/link.txt"
+path_download="${HOME}/Downloads"
+
+read -p "Location Downloads : " pathDownloads 
+
+if [ -z "$pathDownloads" ]; then
+  pathDownloads="$path_download"
+fi
 
 nvim $file
 
