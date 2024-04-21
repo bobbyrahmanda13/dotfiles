@@ -356,3 +356,6 @@ alias zalacritty='cd ${HOME}/.config/alacritty && nvim .'
 alias zgtk='cd ${HOME}/.config/gtk-3.0 && nvim .'
 alias zkitty='cd ${HOME}/.config/kitty && nvim .'
 
+# set up fzf key bindings and fuzzy completion
+eval "$(fzf --zsh)"
+
