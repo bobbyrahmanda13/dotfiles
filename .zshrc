@@ -357,5 +357,12 @@ alias zgtk='cd ${HOME}/.config/gtk-3.0 && nvim .'
 alias zkitty='cd ${HOME}/.config/kitty && nvim .'
 
 # set up fzf key bindings and fuzzy completion
+# sudo pacman -Sy fzf
 eval "$(fzf --zsh)"
 
+# sudo pacman -Sy eza
+alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+
+# sudo pacman -Sy zoxide
+eval "$(zoxide init zsh)"
+alias cd="z"
