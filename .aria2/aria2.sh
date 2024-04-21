@@ -9,6 +9,6 @@ else
   # aria2c -i ${HOME}/.aria2/link.txt > .aria2/aria2_log.txt 2>&1
   aria2c -i $file
   notify-send "Download Completed"
-  truncate -s 0 $file
+  #truncate -s 0 $file
   exit
 fi
