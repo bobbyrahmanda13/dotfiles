@@ -1,5 +1,5 @@
 sudo pacman -Syyu
-sudo pacman -Syy git telegram-dekstop tldr eza zoxide aria2 yt-dlp curl wget strawberry go libreoffice-still keepassxc ripgrep fd
+sudo pacman -Syy git telegram-dekstop tldr cmake unzip eza zoxide aria2 yt-dlp alacritty curl wget strawberry go libreoffice-still keepassxc ripgrep fd
 sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay

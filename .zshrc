@@ -92,14 +92,12 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 configure_prompt() {
-    # prompt_symbol=㉿
-    # prompt_symbol=🛡
-    prompt_symbol=☯
+    prompt_symbol=㉿
     # Skull emoji for root terminal
-    [ "$EUID" -eq 0 ] && prompt_symbol=💀
+    #[ "$EUID" -eq 0 ] && prompt_symbol=💀
     case "$PROMPT_ALTERNATIVE" in
         twoline)
-            PROMPT=$'%F{%(#.blue.green)}┌──${debian_chroot:+($debian_chroot)─}${VIRTUAL_ENV:+($(basename $VIRTUAL_ENV))─}(%B%F{%(#.red.blue)}%n'$prompt_symbol$' %m%b%F{%(#.blue.green)})-[%B%F{reset}%(6~.%-1~/…/%4~.%5~)%b%F{%(#.blue.green)}]\n└─%B%(#.%F{red}#.%F{blue}$)%b%F{reset} '
+            PROMPT=$'%F{%(#.blue.green)}┌──${debian_chroot:+($debian_chroot)─}${VIRTUAL_ENV:+($(basename $VIRTUAL_ENV))─}(%B%F{%(#.red.blue)}%n'$prompt_symbol$'%m%b%F{%(#.blue.green)})-[%B%F{reset}%(6~.%-1~/…/%4~.%5~)%b%F{%(#.blue.green)}]\n└─%B%(#.%F{red}#.%F{blue}$)%b%F{reset} '
             # Right-side prompt with exit codes and background processes
             #RPROMPT=$'%(?.. %? %F{red}%B⨯%b%F{reset})%(1j. %j %F{yellow}%B⚙%b%F{reset}.)'
             ;;
@@ -129,8 +127,8 @@ if [ "$color_prompt" = yes ]; then
     configure_prompt
 
     # enable syntax-highlighting
-    if [ -f /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
-        . /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+    if [ -f /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
+        . /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
         ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
         ZSH_HIGHLIGHT_STYLES[default]=none
         ZSH_HIGHLIGHT_STYLES[unknown-token]=underline
@@ -259,6 +257,7 @@ if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
 
+
 # git command short start
 alias ga='git add .'
 alias gst='git status --short'
@@ -336,19 +335,6 @@ esac
 # pnpm end
 LC_ALL=en_US.UTF-8
 
-# GPG Key Export
-# Backup gpg key public
-alias gpg-export-public='gpg --export --export-options backup -o ${HOME}/Downloads/gpg-key/publicRahman.gpg'
-# Backup gpg key private 
-alias gpg-export-private='gpg --export-secret-keys --export-options backup -o ${HOME}/Downloads/gpg-key/privateRahman.gpg'
-# export private-key gpg
-alias gpgPrivKey='gpg --export-secret-keys -a bobbyRahmanda > ${HOME}/Downloads/gpg-key/privateRahman.key'
-# export public-key gpg
-alias gpgPubKey='gpg --export -a bobbyRahmanda > ${HOME}/Downloads/gpg-key/publicRahman.key'
-
-# export all .gpg and .key
-alias gpgExport='gpg-export-public && gpg-export-private && gpgPrivKey && gpgPubKey'
-
 
 alias znvim='cd ${HOME}/.config/nvim && nvim .'
 alias zaria2='cd ${HOME}/.aria2 && nvim .'
@@ -361,7 +347,7 @@ alias zkitty='cd ${HOME}/.config/kitty && nvim .'
 eval "$(fzf --zsh)"
 
 # sudo pacman -Sy eza
-alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+alias ls="eza --color=always --long --git --icons=always --no-time --no-user --all"
 
 # sudo pacman -Sy zoxide
 eval "$(zoxide init zsh)"
