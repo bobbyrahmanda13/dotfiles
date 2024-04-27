@@ -1,0 +1,93 @@
+/* Panel */
+.xfce4-panel {
+  border-top: 1px solid #2C2C2C;  /* Adjust as needed */
+  padding: 10px;                 /* Adjust padding to your liking */
+  border-radius: 5px;
+  background-color: #333;        /* Adjust panel background color */
+}
+
+/* Whisker Menu Button */
+#whiskermenu-button {
+  border-radius: 5px;
+  background-color: #444;        /* Adjust button background color */
+}
+
+/* Clock Button */
+#clock-button {
+  padding: 4px;
+  background-color: #2D2D2D;
+  border-radius: 6px;
+  margin: 3px 0;
+}
+
+/* Panel Buttons */
+.xfce4-panel button {
+  padding: 6px 3px;     /* Adjust padding as needed */
+  transition: 0.2s;
+  box-shadow: none;
+  background-image: none;
+  border: none;          /* Remove borders for a cleaner look */
+  border-radius: 5px;
+  margin: 2px;
+  background-color: rgba(255, 255, 255, 0.1);  /* Adjust transparency */
+}
+
+.xfce4-panel button:hover,
+.xfce4-panel button:active,
+.xfce4-panel button:active:hover {
+  background-color: rgba(255, 255, 255, 0.2);  /* Adjust hover color */
+}
+
+/* Tasklist (Optional) */
+.tasklist {
+  -XfceTasklist-max-button-length: 160px;  /* Adjust tasklist button length */
+}
+
+/* Separator Text Color */
+#separator-1, #separator-3 {
+  color: rgba(255, 255, 255, 0.5);  /* Adjust text color */
+}
+
+/* Whisker Menu Button Color */
+#whiskermenu-8 #whiskermenu-button {
+  background-color: #bf616a;  /* Adjust desired color */
+}
+
+#whiskermenu-8 #whiskermenu-button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Whisker Menu Window */
+window#whiskermenu-window > frame > border {
+  border: 5px solid transparent;
+}
+
+window#whiskermenu-window scrolledwindow {
+  margin: 2px;
+}
+
+#whiskermenu-window button {
+  font-size: 14px;
+}
+
+#whiskermenu-window treeview,
+#whiskermenu-window iconview {
+  padding: 5px;  /* Adjust padding as needed */
+}
+
+#whiskermenu-window treeview:hover,
+#whiskermenu-window iconview:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Thunar (Optional) */
+.thunar .sidebar {
+  border: 5px solid transparent;
+  background-color: transparent;  /* Use a custom background image if desired */
+  padding: 2px 4px 2px 0px;
+  border-radius: 3px;
+}
+
+.thunar .sidebar .view:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
