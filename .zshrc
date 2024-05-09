@@ -271,6 +271,7 @@ alias gclone='git clone'
 # git command short end
 
 alias gsend='bash ${HOME}/gsend.sh'
+alias movedotfile='bash ${HOME}/mvdotfilesarch.sh'
 
 alias tmux1='tmux new -s coding1'
 alias tmux2='tmux new -s coding2'
@@ -358,3 +359,4 @@ alias cd="z"
 # Go Alias
 alias gor="go run"
 alias gob="go build"
+
