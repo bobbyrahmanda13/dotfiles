@@ -8,3 +8,4 @@ cp -r youtubemp3 $pathArch
 cp -r youtubeVideo $pathArch
 cp -r .aria2 $pathArch
 cp gsend.sh $pathArch
+cp mvdotfilesarch.sh $path

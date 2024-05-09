@@ -1,6 +1,10 @@
 [cursor.style]
 shape = "Block"
 
+[shell]
+program = "/bin/zsh"
+args = ["-c","tmux new -s desktop"]
+
 [env]
 TERM = "alacritty"
 

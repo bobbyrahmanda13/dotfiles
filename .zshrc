@@ -271,10 +271,12 @@ alias gclone='git clone'
 # git command short end
 
 alias gsend='bash ${HOME}/gsend.sh'
+
 alias tmux1='tmux new -s coding1'
 alias tmux2='tmux new -s coding2'
 alias tmux3='tmux new -s coding3'
 alias tmux4='tmux new -s coding4'
+
 
 # command package manager short start
 # alias bi='bun install'
@@ -352,3 +354,7 @@ alias ls="eza --color=always --long --git --icons=always --no-time --no-user --a
 # sudo pacman -Sy zoxide
 eval "$(zoxide init zsh)"
 alias cd="z"
+
+# Go Alias
+alias gor="go run"
+alias gob="go build"
