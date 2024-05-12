@@ -3,7 +3,7 @@ shape = "Block"
 
 [shell]
 program = "/bin/zsh"
-args = ["-l","-c","tmux attach || tmux new-session -s core"]
+args = ["-l", "-c", "tmux attach || tmux"]
 
 [env]
 TERM = "alacritty"
