@@ -360,3 +360,5 @@ alias cd="z"
 alias gor="go run"
 alias gob="go build"
 
+alias arch-update="sudo pacman -Syu && yay -Syu"
+alias arch-clean="sudo pacman -Scc && yay -Scc && rm -rvf ~/.cache/*"
