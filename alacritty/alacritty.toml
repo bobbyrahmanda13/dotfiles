@@ -1,9 +1,9 @@
 [cursor.style]
 shape = "Block"
 
-[shell]
-program = "/bin/zsh"
-args = ["-l", "-c", "tmux attach || tmux"]
+# [shell]
+# program = "/bin/zsh"
+# args = ["-l", "-c", "tmux attach || tmux"]
 
 [env]
 TERM = "alacritty"
