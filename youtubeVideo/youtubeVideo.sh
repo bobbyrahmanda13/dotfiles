@@ -44,7 +44,7 @@ else
     --deferred-input=true \
     --console-log-level=error \
     --log-level=error" \
-    -a $path -o $output --write-auto-subs --sub-format srt --sub-langs id
+    -a $path -o $output --write-auto-subs --sub-format ttml --sub-langs id
       truncate -s 0 $path
       exit
 fi
