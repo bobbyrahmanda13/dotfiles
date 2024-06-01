@@ -106,7 +106,7 @@ alias arch-check-cache="du -sh /var/cache/pacman/pkg && du -sh .cache"
 
 
 eval "$(starship init bash)"
-export STARSHIP_CONFIG="~/.config/starship/starship.toml"
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
 
 eval "$(zoxide init bash)"
 alias cd="z"

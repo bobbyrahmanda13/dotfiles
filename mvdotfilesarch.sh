@@ -7,6 +7,7 @@ cp mvdotfilesarch.sh $path
 cp gsend.sh $path
 # cp mountPartition.sh $path
 cp -rf ${HOME}/.config/alacritty $path
+cp -rf ${HOME}/.config/starship $path
 cp -rf ${HOME}/.config/gtk-3.0 $path
 cp -rf ${HOME}/.aria2 $path
 # cp -r ${HOME}/.config/kitty $path
