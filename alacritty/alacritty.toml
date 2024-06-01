@@ -9,7 +9,7 @@ shape = "Block"
 TERM = "alacritty"
 
 [font]
-size = 12
+size = 8.0
 
 normal = { family = "FantasqueSansM Nerd Font", style = "Regular"}
 italic = { family = "FantasqueSansM Nerd Font", style = "Italic"}
