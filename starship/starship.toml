@@ -1,4 +1,4 @@
-pallete = "solarized_osaka"
+# pallete = "solarized_osaka"
 
 # format = """
 # $username\
@@ -13,9 +13,6 @@ pallete = "solarized_osaka"
 # $character"""
 
 format = """
-[░▒▓](#a3aed2)\
-[ ](bg:#a3aed2 fg:#090c0c)\
-[▓▒░](#a3aed2)\
 $directory\
 $git_branch\
 $git_status\
@@ -25,15 +22,15 @@ $golang\
 
 [directory]
 # style = "fg:#e3e5e5 bg:#769ff0"
-style = "blue"
+style = "fg:#859900"
 format = "[ $path ]($style)"
 truncation_length = 3
-truncation_symbol = "…/"
+truncation_symbol = "~/"
 
 [character]
-success_symbol = "[❯](purple)"
-error_symbol = "[❯](red)"
-vimcmd_symbol = "[❮](green)"
+success_symbol = "[ ](#278bd3) [❯](#859900)"
+error_symbol = "[ ](#278bd3) [✗](#dc312e)"
+vimcmd_symbol = "[ ](#278bd3) [❮](#859900)"
 
 [directory.substitutions]
 "Documents" = "󰈙 "
@@ -42,12 +39,12 @@ vimcmd_symbol = "[❮](green)"
 "Pictures" = " "
 
 [git_branch]
-format = "[$branch]($style)"
-style = "bright-black"
+format = "on [$symbol$branch ]($style) "
+style = "white"
 
 [git_status]
 format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](218) ($ahead_behind$stashed)]($style)"
-style = "cyan"
+style = "#2aa298"
 conflicted = "​"
 untracked = "​"
 modified = "​"
@@ -62,12 +59,11 @@ style = "bright-black"
 
 [cmd_duration]
 format = "[$duration]($style) "
-style = "yellow"
+style = "#b38600"
 
 [python]
 format = "[$virtualenv]($style) "
 style = "bright-black"
-
 
 [nodejs]
 symbol = ""
@@ -79,8 +75,8 @@ symbol = ""
 style = "bg:#212736"
 format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 
-[time]
-disabled = false
-time_format = "%R" # Hour:Minute Format
-style = "bg:#1d2230"
-format = '[[  $time ](fg:#a0a9cb bg:#1d2230)]($style)'
+# [time]
+# disabled = false
+# time_format = "%R" # Hour:Minute Format
+# style = "bg:#1d2230"
+# format = '[[  $time ](fg:#a0a9cb bg:#1d2230)]($style)'
