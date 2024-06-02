@@ -1,9 +1,10 @@
-path="${HOME}/Downloads/dotfiles"
+path="${HOME}/Rahman/github/dotfiles"
 cp .zshrc $path
 cp .bashrc $path
 cp .gitconfig $path
 cp .tmux.conf $path
 cp mvdotfilesarch.sh $path
+cp repo-github.sh $path
 cp gsend.sh $path
 # cp mountPartition.sh $path
 cp -rf ${HOME}/.config/alacritty $path
