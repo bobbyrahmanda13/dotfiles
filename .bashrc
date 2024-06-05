@@ -111,3 +111,5 @@ export STARSHIP_CONFIG=~/.config/starship/starship.toml
 eval "$(zoxide init bash)"
 alias cd="z"
 
+bind 'set show-all-if-ambiguous on'
+bind 'TAB:menu-complete'
