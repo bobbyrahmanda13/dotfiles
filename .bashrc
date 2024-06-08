@@ -113,3 +113,7 @@ alias cd="z"
 
 bind 'set show-all-if-ambiguous on'
 bind 'TAB:menu-complete'
+
+alias rcopy='xclip -selection clipboard'
+alias rpaste='xclip -o'
+
