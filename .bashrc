@@ -30,9 +30,11 @@ alias glog='git log'
 alias gclone='git clone'
 # git command short end
 
+# Config send folder to dotfiles github
 alias gsend='bash ${HOME}/gsend.sh'
 alias movedotfile='bash ${HOME}/mvdotfilesarch.sh'
 
+# Config tmux new name session
 alias tmux1='tmux new -s coding1'
 alias tmux2='tmux new -s coding2'
 alias tmux3='tmux new -s coding3'
@@ -85,6 +87,7 @@ alias ytbvid='bash ${HOME}/youtubeVideo/youtubeVideo.sh'
 alias ytbmp3='bash ${HOME}/youtubemp3/youtubemp3.sh'
 # youtube downloader mp3 end
 
+# Config auto open file or folder nvim aria2 and alacritty
 alias znvim='cd ${HOME}/.config/nvim && nvim .'
 alias zaria2='cd ${HOME}/.aria2 && nvim .'
 alias zalacritty='cd ${HOME}/.config/alacritty && nvim .'
@@ -104,16 +107,19 @@ alias arch-update="sudo pacman -Syu && yay -Syu"
 alias arch-clean="sudo pacman -Scc && yay -Scc && rm -rvf ~/.cache/*"
 alias arch-check-cache="du -sh /var/cache/pacman/pkg && du -sh .cache"
 
-
+# Config starship
 eval "$(starship init bash)"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 
+# Config zoxide
 eval "$(zoxide init bash)"
 alias cd="z"
 
+# Bash auto complete
 bind 'set show-all-if-ambiguous on'
 bind 'TAB:menu-complete'
 
+# Copy Paste
 alias rcopy='xclip -selection clipboard'
 alias rpaste='xclip -o'
 
