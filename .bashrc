@@ -96,7 +96,7 @@ alias zalacritty='cd ${HOME}/.config/alacritty && nvim .'
 eval "$(fzf --bash)"
 
 # set up eza alternative change ls
-alias ls="eza -G -a -m -h --long --git --no-user --no-filesize --no-permissions --icons=always --color=always "
+alias ls="eza -G -a -m -h --long --git --no-user --no-filesize --icons=always --color=always "
 
 # Go Alias
 alias gor="go run"
