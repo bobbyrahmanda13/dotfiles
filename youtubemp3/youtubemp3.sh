@@ -2,7 +2,7 @@
 path="${HOME}/youtubemp3/linkDownload.txt"
 output="${HOME}/Downloads/'%(title)s.mp3'"
 
-mousepad $path
+nvim $path
 
 if ! grep -q '[^[:space:]]' $path; then
   echo "file is empty" 
