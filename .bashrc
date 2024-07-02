@@ -107,6 +107,7 @@ alias gob="go build"
 alias arch-update="sudo pacman -Syu && yay -Syu"
 alias arch-clean="sudo pacman -Scc && yay -Scc && rm -rvf ~/.cache/*"
 alias arch-check-cache="du -sh /var/cache/pacman/pkg && du -sh .cache"
+alias arch-install="sudo pacman -Sy"
 
 # Config starship
 eval "$(starship init bash)"
