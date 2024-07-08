@@ -124,4 +124,3 @@ bind 'TAB:menu-complete'
 # Copy Paste
 alias rcopy='xclip -selection clipboard'
 alias rpaste='xclip -o'
-
