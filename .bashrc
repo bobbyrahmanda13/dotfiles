@@ -104,7 +104,7 @@ alias gor="go run"
 alias gob="go build"
 
 # set up arch update and clean
-alias arch-update="sudo pacman -Syu && yay -Syu"
+alias arch-update="sudo pacman -Syyu && yay -Syyu"
 alias arch-clean="sudo pacman -Scc && yay -Scc && rm -rvf ~/.cache/*"
 alias arch-check-cache="du -sh /var/cache/pacman/pkg && du -sh .cache"
 alias arch-install="sudo pacman -Sy"
