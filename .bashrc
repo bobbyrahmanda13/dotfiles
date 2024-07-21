@@ -33,6 +33,7 @@ alias gclone='git clone'
 # Config send folder to dotfiles github
 alias gsend='bash ${HOME}/gsend.sh'
 alias movedotfile='bash ${HOME}/mvdotfilesarch.sh'
+alias repogithub='bash ${HOME}/repo-github.sh'
 
 # Config tmux new name session
 alias tmux1='tmux new -s coding1'
