@@ -110,6 +110,8 @@ alias arch-clean="sudo pacman -Scc && yay -Scc && rm -rvf ~/.cache/*"
 alias arch-check-cache="du -sh /var/cache/pacman/pkg && du -sh .cache"
 alias arch-install="sudo pacman -Sy"
 alias arch-remove="sudo pacman -R"
+alias arch-search-installed="sudo pacman -Qs"
+alias arch-search-package="sudo pacman -Fy"
 
 # Config starship
 eval "$(starship init bash)"
