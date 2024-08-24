@@ -11,9 +11,9 @@ TERM = "alacritty"
 [font]
 size = 8.0
 
-normal = { family = "FantasqueSansM Nerd Font", style = "Regular"}
-italic = { family = "FantasqueSansM Nerd Font", style = "Italic"}
-bold = { family = "FantasqueSansM Nerd Font", style = "Bold"}
+normal = { family = "M+CodeLat50 Nerd Font", style = "Regular"}
+italic = { family = "M+CodeLat50 Nerd Font", style = "Italic"}
+bold = { family = "M+CodeLat50 Nerd Font", style = "Bold"}
 
 [window]
 dynamic_padding = false
