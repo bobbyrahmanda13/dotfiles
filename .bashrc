@@ -93,6 +93,7 @@ alias ytbmp3='bash ${HOME}/youtubemp3/youtubemp3.sh'
 alias znvim='cd ${HOME}/.config/nvim && nvim .'
 alias zaria2='cd ${HOME}/.aria2 && nvim .'
 alias zalacritty='cd ${HOME}/.config/alacritty && nvim .'
+alias zbashrc='cd ${HOME} && nvim .bashrc'
 
 # set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
