@@ -112,6 +112,7 @@ alias arch-install="sudo pacman -Sy"
 alias arch-remove="sudo pacman -R"
 alias arch-search-installed="sudo pacman -Qs"
 alias arch-search-package="sudo pacman -Fy"
+alias arch-yay-update="yay -Sua"
 
 # Config starship
 eval "$(starship init bash)"
