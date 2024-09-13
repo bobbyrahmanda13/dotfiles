@@ -130,3 +130,6 @@ bind 'TAB:menu-complete'
 # Copy Paste
 alias rcopy='xclip -selection clipboard'
 alias rpaste='xclip -o'
+
+# Created by `pipx` on 2024-09-02 12:03:47
+export PATH="$PATH:/home/rahman/.local/bin"
