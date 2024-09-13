@@ -16,25 +16,24 @@ italic = { family = "M+1Code Nerd Font", style = "Italic"}
 bold = { family = "M+1Code Nerd Font", style = "Bold"}
 
 [window]
-dynamic_padding = false
-opacity = 0.94
-title = "Alacritty"
+# dynamic_padding = false
+opacity = 0.90
+# title = "Rahman"
+# dynamic_title = true
+blur = true
+decorations = "None"
 
-[window.class]
-general = "Alacritty"
-instance = "Alacritty"
+[window.padding]
+x = 8
+y = 4
 
 [window.dimensions]
 columns = 160
-lines = 34
-
-[window.padding]
-x = 3
-y = 3
+lines = 35
 
 [window.position]
-x = 35
-y = 0
+x = 40
+y = 40
 
 # Colors (Solarized Osaka)
 # HSL convert HEX using https://colordesigner.io/
