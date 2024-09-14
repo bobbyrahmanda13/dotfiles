@@ -17,7 +17,7 @@ bold = { family = "M+1Code Nerd Font", style = "Bold"}
 
 [window]
 # dynamic_padding = false
-opacity = 0.90
+opacity = 0.5
 # title = "Rahman"
 # dynamic_title = true
 decorations = "None"
