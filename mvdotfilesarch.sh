@@ -7,7 +7,7 @@ cp ${HOME}/mvdotfilesarch.sh $path
 cp ${HOME}/repo-github.sh $path
 cp ${HOME}/gsend.sh $path
 cp -rf ${HOME}/.config/alacritty $path
-# cp -rf ${HOME}/.config/picom $path
+cp -rf ${HOME}/.config/picom $path
 cp -rf ${HOME}/.config/starship $path
 cp -rf ${HOME}/.config/gtk-3.0 $path
 cp -rf ${HOME}/.aria2 $path
