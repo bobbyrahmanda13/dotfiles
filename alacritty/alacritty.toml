@@ -27,11 +27,11 @@ x = 8
 y = 4
 
 [window.dimensions]
-columns = 160
+columns = 162
 lines = 35
 
 [window.position]
-x = 30
+x = 24
 y = 40
 
 # Colors (Solarized Osaka)
