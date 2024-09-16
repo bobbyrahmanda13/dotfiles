@@ -11,9 +11,9 @@ TERM = "alacritty"
 [font]
 size = 8.0
 
-normal = { family = "M+1Code Nerd Font", style = "Regular"}
-italic = { family = "M+1Code Nerd Font", style = "Italic"}
-bold = { family = "M+1Code Nerd Font", style = "Bold"}
+normal = { family = "Iosevka Nerd Font", style = "Regular"}
+italic = { family = "Iosevka Nerd Font", style = "Italic"}
+bold = { family = "Iosevka Nerd Font", style = "Bold"}
 
 [window]
 # dynamic_padding = false
