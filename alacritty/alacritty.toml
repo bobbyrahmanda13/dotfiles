@@ -18,6 +18,7 @@ bold = { family = "FantasqueSansM Nerd Font", style = "Bold"}
 [window]
 # dynamic_padding = false
 opacity = 0.9
+blur = true
 # title = "Rahman"
 # dynamic_title = true
 decorations = "None"
