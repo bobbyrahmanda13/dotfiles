@@ -1,5 +1,5 @@
 path="${HOME}/Rahman/github/dotfiles"
-cp ${HOME}/.zshrc $path
+# cp ${HOME}/.zshrc $path
 cp ${HOME}/.bashrc $path
 cp ${HOME}/.gitconfig $path
 cp ${HOME}/.tmux.conf $path
