@@ -24,7 +24,7 @@ blur = true
 decorations = "None"
 
 [window.padding]
-x = 4
+x = 6
 y = 4
 
 [window.dimensions]
