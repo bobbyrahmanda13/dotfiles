@@ -135,5 +135,5 @@ alias rpaste='xclip -o -sel clip'
 export PATH="$PATH:/home/rahman/.local/bin"
 
 # Record Screen 
-alias screen-record="ffmpeg -video_size 1920x1080 -framerate 30 -f x11grab -i :0.0+0,0 -c:v libx264rgb -crf 0 -preset ultrafast /home/rahman/Videos/video.mkv"
+alias screen-record="ffmpeg -video_size 1366x768 -framerate 30 -f x11grab -i :0.0+0,0 -c:v libx264rgb -crf 0 -preset ultrafast /home/rahman/Videos/video.mkv"
 
