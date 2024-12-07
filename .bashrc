@@ -20,7 +20,7 @@ esac
 
 # git command short start
 alias ga='git add .'
-alias gst='git status --short'
+alias gst='git status'
 alias gcm='git commit -m'
 alias gbr='git branch'
 alias gco='git checkout'
