@@ -1,6 +1,6 @@
 #!/bin/bash
 path="${HOME}/youtubemp3/linkDownload.txt"
-output="${HOME}/Downloads/'%(title)s.mp3'"
+output="${HOME}/Downloads/'%(title)s'"
 
 nvim $path
 
