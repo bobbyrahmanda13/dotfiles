@@ -9,7 +9,7 @@ shape = "Block"
 TERM = "alacritty"
 
 [font]
-size = 8.0
+size = 11.0
 
 normal = { family = "FantasqueSansM Nerd Font", style = "Regular"}
 italic = { family = "FantasqueSansM Nerd Font", style = "Italic"}
@@ -28,12 +28,12 @@ x = 6
 y = 4
 
 [window.dimensions]
-columns = 162
-lines = 41
+columns = 163
+lines = 42
 
 [window.position]
 x = 24
-y = 40
+y = 39
 
 # Colors (Solarized Osaka)
 # HSL convert HEX using https://colordesigner.io/
