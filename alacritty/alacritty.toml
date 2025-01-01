@@ -11,9 +11,9 @@ TERM = "alacritty"
 [font]
 size = 11.0
 
-normal = { family = "FantasqueSansM Nerd Font", style = "Regular"}
-italic = { family = "FantasqueSansM Nerd Font", style = "Italic"}
-bold = { family = "FantasqueSansM Nerd Font", style = "Bold"}
+normal = { family = "Monaspace Radon Var", style = "Regular"}
+italic = { family = "Monaspace Radon Var", style = "Italic"}
+bold = { family = "Monaspace Radon Var", style = "Bold"}
 
 [window]
 # dynamic_padding = false
@@ -28,7 +28,7 @@ x = 8
 y = 4
 
 [window.dimensions]
-columns = 163
+columns = 149
 lines = 42
 
 [window.position]
