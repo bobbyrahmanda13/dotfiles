@@ -4,6 +4,7 @@ continuation_prompt = "[▸▹ ](dimmed white)"
 
 format = """
 [╭](fg:#839495)\
+$os\
 $directory\
 $git_branch\
 $git_status\
@@ -16,6 +17,14 @@ $nodejs\
 $golang\
 $time\
 \n$character"""
+
+[os]
+format = '[─](fg:#839495)[$symbol]($style)'
+style = '#278bd3 bold'
+disabled = false
+
+[os.symbols]
+Arch = ' '
 
 [directory]
 home_symbol = " ~/"
@@ -31,9 +40,9 @@ symbol = '─'
 style = 'bold #839495'
 
 [character]
-success_symbol = "[ ](#278bd3 bold)[─](fg:#859900 bold)[❯](#859900 bold)"
-error_symbol = "[ ](#278bd3 bold)[─](fg:#859900 bold)[✗](#dc312e bold)"
-vimcmd_symbol = "[ ](#278bd3 bold)[─](fg:#859900 bold)[❮](#859900 bold)"
+success_symbol = "[╰─](fg:#839495)[❯](#859900 bold)"
+error_symbol = "[╰─](fg:#839495)[✗](#dc312e bold)"
+vimcmd_symbol = "[╰─](fg:#839495)[❮](#859900 bold)"
 
 [directory.substitutions]
 "Documents" = "󰈙 "
