@@ -16,7 +16,14 @@ $rust\
 $nodejs\
 $golang\
 $time\
+$memory_usage\
 \n$character"""
+
+[memory_usage]
+disabled = false 
+format = '[${ram}( | ${swap})]($style)'
+style = 'bold dimmed white'
+threshold = 50 
 
 [os]
 format = '[─](fg:#839495)[$symbol]($style)'
