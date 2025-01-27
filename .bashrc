@@ -141,3 +141,4 @@ alias screen-record="ffmpeg -video_size 1366x768 -framerate 30 -f x11grab -i :0.
 # Rust and Cargo command alias
 alias car='cargo run'
 alias cab='cargo build'
+alias cartest='read -p "test run :" test_function && cargo test $test_function -- --exact --nocapture'
