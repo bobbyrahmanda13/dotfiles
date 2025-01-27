@@ -1,5 +1,6 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 add_newline = true
+continuation_prompt = "[▸▹ ](dimmed white)"
 
 format = """
 [╭](fg:#839495)\
@@ -7,7 +8,7 @@ $directory\
 $git_branch\
 $git_status\
 $python\
-$bash\
+$lua\
 $rust\
 $nodejs\
 $golang\
@@ -15,10 +16,10 @@ $time\
 \n$character"""
 
 [directory]
-home_symbol = " ~/"
+home_symbol = " ~/"
 style = "fg:#859900"
 format = "[─](fg:#839495)[ $path ]($style)"
-truncation_symbol = ' '
+truncation_symbol = ' '
 truncation_length = 3
 read_only = '󱧵 '
 read_only_style = ''
@@ -62,8 +63,8 @@ symbol = "󰌠"
 style = "bg:#00141a"
 format = '[─](fg:#839495)[[ $symbol ($version) ](fg:#ede7d4 bold)]($style)'
 
-[bash]
-symbol = ""
+[lua]
+symbol = "󰢱"
 style = "bg:#00141a"
 format = '[─](fg:#839495)[[ $symbol ($version) ](fg:#ede7d4 bold)]($style)'
 
