@@ -23,7 +23,7 @@ $memory_usage\
 disabled = false 
 format = '[${ram}( | ${swap})]($style)'
 style = 'bold dimmed white'
-threshold = 50 
+threshold = 70 
 
 [os]
 format = '[─](fg:#839495)[$symbol]($style)'
