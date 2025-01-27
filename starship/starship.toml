@@ -1,36 +1,32 @@
-# pallete = "solarized_osaka"
-
-# format = """
-# $username\
-# $hostname\
-# $directory\
-# $git_branch\
-# $git_state\
-# $git_status\
-# $cmd_duration\
-# $line_break\
-# $python\
-# $character"""
+"$schema" = 'https://starship.rs/config-schema.json'
+add_newline = true
 
 format = """
+[╭](fg:#839495)\
 $directory\
 $git_branch\
 $git_status\
+$python\
+$bash\
+$rust\
 $nodejs\
 $golang\
+$time\
 \n$character"""
 
 [directory]
-# style = "fg:#e3e5e5 bg:#769ff0"
+home_symbol = " ~/"
 style = "fg:#859900"
-format = "[ $path ]($style)"
+format = "[─](fg:#839495)[ $path ]($style)"
+truncation_symbol = ' '
 truncation_length = 3
-truncation_symbol = "~/"
+read_only = '󱧵 '
+read_only_style = ''
 
 [character]
-success_symbol = "[ ](#278bd3) [❯](#859900)"
-error_symbol = "[ ](#278bd3) [✗](#dc312e)"
-vimcmd_symbol = "[ ](#278bd3) [❮](#859900)"
+success_symbol = "[ ](#278bd3 bold)[─](fg:#859900 bold)[❯](#859900 bold)"
+error_symbol = "[ ](#278bd3 bold)[─](fg:#859900 bold)[✗](#dc312e bold)"
+vimcmd_symbol = "[ ](#278bd3 bold)[─](fg:#859900 bold)[❮](#859900 bold)"
 
 [directory.substitutions]
 "Documents" = "󰈙 "
@@ -39,8 +35,8 @@ vimcmd_symbol = "[ ](#278bd3) [❮](#859900)"
 "Pictures" = " "
 
 [git_branch]
-format = "on [$symbol$branch ]($style) "
-style = "white"
+format = "[─](fg:#839495) on [$symbol$branch ]($style)"
+style = "#ede7d4 bold"
 
 [git_status]
 format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](218) ($ahead_behind$stashed)]($style)"
@@ -55,28 +51,39 @@ stashed = "≡"
 
 [git_state]
 format = '\([$state( $progress_current/$progress_total)]($style)\) '
-style = "bright-black"
+style = "#d33682"
 
-[cmd_duration]
-format = "[$duration]($style) "
-style = "#b38600"
+# [cmd_duration]
+# format = "[─](fg:#839495)[$duration]($style) "
+# style = "#b38600'"
 
 [python]
-format = "[$virtualenv]($style) "
-style = "bright-black"
+symbol = "󰌠"
+style = "bg:#00141a"
+format = '[─](fg:#839495)[[ $symbol ($version) ](fg:#ede7d4 bold)]($style)'
+
+[bash]
+symbol = ""
+style = "bg:#00141a"
+format = '[─](fg:#839495)[[ $symbol ($version) ](fg:#ede7d4 bold)]($style)'
+
+[rust]
+symbol = "󱘗"
+style = "bg:#00141a"
+format = '[─](fg:#839495)[[ $symbol ($version) ](fg:#ede7d4 bold)]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+style = "bg:#00141a"
+format = '[─](fg:#839495)[[ $symbol ($version) ](fg:#ede7d4 bold)]($style)'
 
 [golang]
 symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+style = "bg:#00141a"
+format = '[─](fg:#839495)[[ $symbol ($version) ](fg:#ede7d4 bold)]($style)'
 
-# [time]
-# disabled = false
-# time_format = "%R" # Hour:Minute Format
-# style = "bg:#1d2230"
-# format = '[[  $time ](fg:#a0a9cb bg:#1d2230)]($style)'
+[time]
+disabled = false 
+time_format = "%R" # Hour:Minute Format
+style = "bg:#278bd3"
+format = '[─](fg:#839495)[[  $time ](fg:#278bd3 bold)]($style)'
