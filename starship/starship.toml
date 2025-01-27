@@ -7,6 +7,8 @@ format = """
 $directory\
 $git_branch\
 $git_status\
+$git_state\
+$fill\
 $python\
 $lua\
 $rust\
@@ -24,6 +26,10 @@ truncation_length = 3
 read_only = '󱧵 '
 read_only_style = ''
 
+[fill]
+symbol = '─'
+style = 'bold #839495'
+
 [character]
 success_symbol = "[ ](#278bd3 bold)[─](fg:#859900 bold)[❯](#859900 bold)"
 error_symbol = "[ ](#278bd3 bold)[─](fg:#859900 bold)[✗](#dc312e bold)"
@@ -40,15 +46,19 @@ format = "[─](fg:#839495) on [$symbol$branch ]($style)"
 style = "#ede7d4 bold"
 
 [git_status]
-format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](218) ($ahead_behind$stashed)]($style)"
-style = "#2aa298"
-conflicted = "​"
-untracked = "​"
-modified = "​"
-staged = "​"
-renamed = "​"
-deleted = "​"
-stashed = "≡"
+ahead = '[⇡${count}](lavender) '
+behind = '😰 ${count}'
+conflicted = '🏳'
+deleted = '󰗨 ${count} '
+diverged = '⇕⇡${ahead_count}⇣${behind_count} '
+format = "[[($conflicted$untracked$modified$staged$renamed$deleted)](218)($ahead_behind$stashed)]($style)"
+modified = '[ ${count}](peach) '
+renamed = '👅'
+staged = '[+$count](green) '
+stashed = " ${count} "
+style = "red"
+untracked = "[ ${count}](sapphire) "
+up_to_date = ''
 
 [git_state]
 format = '\([$state( $progress_current/$progress_total)]($style)\) '
