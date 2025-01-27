@@ -138,3 +138,6 @@ export PATH="$PATH:/home/rahman/.local/bin"
 # Record Screen 
 alias screen-record="ffmpeg -video_size 1366x768 -framerate 30 -f x11grab -i :0.0+0,0 -c:v libx264rgb -crf 0 -preset ultrafast /home/rahman/Videos/video.mp4"
 
+# Rust and Cargo command alias
+alias car='cargo run'
+alias cab='cargo build'
