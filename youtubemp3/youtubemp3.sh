@@ -1,5 +1,5 @@
 #!/bin/bash
-path="${HOME}/youtubemp3/link_url.txt"
+path="${HOME}/youtubemp3/linkDownload.txt"
 output="${HOME}/Downloads/'%(title)s'"
 
 nvim $path

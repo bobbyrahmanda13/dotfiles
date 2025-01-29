@@ -1,5 +1,5 @@
 #!/bin/bash
-path="${HOME}/youtubeVideo/link_url.txt"
+path="${HOME}/youtubeVideo/linkDownload.txt"
 output="${HOME}/Downloads/ytbVideoResult/'%(title)s.%(ext)s'"
 
 mousepad $path
