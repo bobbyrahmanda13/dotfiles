@@ -34,7 +34,7 @@ disabled = false
 Arch = ' '
 
 [directory]
-home_symbol = " ~/"
+home_symbol = " "
 style = "fg:#859900"
 format = "[─](fg:#839495)[ $path ]($style)"
 truncation_symbol = ' '
