@@ -37,10 +37,10 @@ Arch = ' '
 home_symbol = " "
 style = "fg:#859900"
 format = "[─](fg:#839495)[ $path ]($style)"
-truncation_symbol = ' /'
+truncation_symbol = '../'
 truncation_length = 3
 read_only = '󱧵 '
-read_only_style = ''
+read_only_style = 'red'
 
 [fill]
 symbol = '─'
