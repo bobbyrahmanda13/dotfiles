@@ -34,7 +34,7 @@ disabled = false
 Arch = ' '
 
 [directory]
-home_symbol = " "
+home_symbol = "~"
 style = "fg:#859900"
 format = "[─](fg:#839495)[ $path ]($style)"
 truncation_symbol = '../'
@@ -52,10 +52,10 @@ error_symbol = "[╰─](fg:#839495)[✗](#dc312e bold)"
 vimcmd_symbol = "[╰─](fg:#839495)[❮](#859900 bold)"
 
 [directory.substitutions]
-"Documents" = "󰈙 "
-"Downloads" = " "
-"Music" = " "
-"Pictures" = " "
+"Documents" = "Documents"
+"Downloads" = "Downloads"
+"Music" = "Music"
+"Pictures" = "Pictures"
 
 [git_branch]
 format = "[─](fg:#839495) on [$symbol$branch ]($style)"
