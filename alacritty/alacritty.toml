@@ -9,11 +9,11 @@ shape = "Block"
 TERM = "alacritty"
 
 [font]
-size = 11.0
+size = 10.5
 
-normal = { family = "Monaspace Radon Var", style = "Regular"}
-italic = { family = "Monaspace Radon Var", style = "Italic"}
-bold = { family = "Monaspace Radon Var", style = "Bold"}
+normal = { family = "PsudoFont Liga Mono", style = "Regular"}
+italic = { family = "PsudoFont Liga Mono", style = "Italic"}
+bold = { family = "PsudoFont Liga Mono", style = "Bold"}
 
 [window]
 # dynamic_padding = false
@@ -24,16 +24,16 @@ blur = true
 decorations = "None"
 
 [window.padding]
-x = 8
+x = 7
 y = 4
 
 [window.dimensions]
-columns = 145
-lines =39 
+columns = 166
+lines = 38
 
 [window.position]
-x = 24
-y = 39
+x = 10
+y = 30
 
 # Colors (Solarized Osaka)
 # HSL convert HEX using https://colordesigner.io/
@@ -64,3 +64,38 @@ blue    = '#47adf5' #color.blue300
 magenta = '#f254a1' #color.magenta300
 cyan    = '#2beede' #color.cyan300
 white   = '#fdf6e2' #color.base3
+
+
+# eldrith-theme
+
+# [colors.primary]
+# background = '#212337'
+# foreground = '#ebfafa'
+#
+# [colors.cursor]
+# cursor = '#37f499'
+# text = '#f8f8f2'
+#
+# [colors.normal]
+# black = '#21222c'
+# blue = '#9071f4'
+# cyan = '#04d1f9'
+# green = '#37f499'
+# magenta = '#f265b5'
+# red = '#f9515d'
+# white = '#ebfafa'
+# yellow = '#e9f941'
+#
+# [colors.bright]
+# black = '#7081d0'
+# blue = '#a48cf2'
+# cyan = '#66e4fd'
+# green = '#69f8b3'
+# magenta = '#fd92ce'
+# red = '#f16c75'
+# white = '#ffffff'
+# yellow = '#f1fc79'
+#
+# [colors.selection]
+# background = '#bf4f8e'
+# text = '#ebfafa'
