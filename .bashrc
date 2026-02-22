@@ -9,14 +9,6 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
-# pnpm
-export PNPM_HOME="/home/rahman/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
 
 # git command short start
 alias ga='git add .'
@@ -31,15 +23,13 @@ alias gclone='git clone'
 # git command short end
 
 # Config send folder to dotfiles github
-alias gsend='bash ${HOME}/gsend.sh'
+# alias gsend='read -p "Git Message : "  gitMessage && git add . && git commit -m "$gitMessage" && git push '
+alias gsend='/home/rahman/Rahman/github/ngecode-aja/golang/gitCommand/gitCommand'
 alias movedotfile='bash ${HOME}/mvdotfilesarch.sh'
 alias repogithub='bash ${HOME}/repo-github.sh'
 
 # Config tmux new name session
 alias tmux1='tmux new -s coding1'
-alias tmux2='tmux new -s coding2'
-alias tmux3='tmux new -s coding3'
-alias tmux4='tmux new -s coding4'
 
 
 # command package manager short start
@@ -108,13 +98,14 @@ alias gob="go build"
 
 # set up arch update and clean
 alias arch-update="sudo pacman -Syu --noconfirm && yay -Syu --noconfirm"
-alias arch-clean="sudo pacman -Scc && yay -Scc && rm -rvf ~/.cache/*"
-alias arch-check-cache="du -sh /var/cache/pacman/pkg && du -sh .cache"
+alias arch-clean="sudo pacman -Scc && yay -Scc && sudo rm -rvf ~/.cache/*"
+alias arch-check-cache="sudo du -sh /var/cache/pacman/pkg && sudo du -sh .cache"
 alias arch-install="sudo pacman -Sy --noconfirm"
-alias arch-remove="sudo pacman -R"
+alias arch-remove="sudo pacman -R --noconfirm"
 alias arch-search-installed="sudo pacman -Qs"
 alias arch-search-package="sudo pacman -Fy"
-alias arch-yay-update="yay -Sua"
+alias arch-yay-update="yay -Sua --noconfirm"
+alias arch-yay-install="yay -Sy --noconfirm"
 
 # Config starship
 eval "$(starship init bash)"
@@ -132,8 +123,8 @@ bind 'TAB:menu-complete'
 alias rcopy='xclip -selection clipboard'
 alias rpaste='xclip -o -sel clip'
 
-# Created by `pipx` on 2024-09-02 12:03:47
-export PATH="$PATH:/home/rahman/.local/bin"
+#created go path 
+export PATH="$PATH:$HOME/go/bin"
 
 # Record Screen 
 alias screen-record="ffmpeg -video_size 1366x768 -framerate 30 -f x11grab -i :0.0+0,0 -c:v libx264rgb -crf 0 -preset ultrafast /home/rahman/Videos/video.mp4"
@@ -142,3 +133,12 @@ alias screen-record="ffmpeg -video_size 1366x768 -framerate 30 -f x11grab -i :0.
 alias car='cargo run'
 alias cab='cargo build'
 alias cartest='read -p "test run : " test_function && cargo test $test_function -- --exact --nocapture'
+
+# pnpm
+export PNPM_HOME="/home/rahman/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
